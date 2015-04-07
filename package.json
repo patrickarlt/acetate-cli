@@ -1,20 +1,32 @@
 {
   "name": "acetate-cli",
-  "version": "0.0.1",
   "description": "Command line interface for the Acetate static site builder.",
-  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "Patrick Arlt",
   "bin": {
     "acetate": "./bin/acetate.js"
+  },
+  "bugs": {
+    "url": "https://github.com/patrickarlt/acetate-cli/issues"
+  },
+  "dependencies": {
+    "resolve": "^1.0.0"
   },
   "engines": {
     "node": "~0.8 || ~0.10"
   },
+  "homepage": "https://github.com/patrickarlt/acetate-cli",
+  "keywords": [
+    "acetate",
+    "cli"
+  ],
+  "license": "MIT",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrickarlt/acetate-cli.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Patrick Arlt",
-  "license": "MIT",
-  "dependencies": {
-    "resolve": "^1.0.0"
   }
 }
