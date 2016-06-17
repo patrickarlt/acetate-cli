@@ -1,7 +1,7 @@
 {
   "name": "acetate-cli",
   "description": "Command line interface for the Acetate static site builder.",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "author": "Patrick Arlt",
   "bin": {
     "acetate": "./bin/acetate.js"

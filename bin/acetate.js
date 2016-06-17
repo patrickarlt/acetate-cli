@@ -10,8 +10,7 @@ resolve('acetate', {basedir: process.cwd()}, function (error, pathToAcetate) {
     return;
   }
 
-  var acetateRoot = pathToAcetate.replace(/(\/|\\)index\.js/, '');
-  var acetateCli = require(path.join(acetateRoot, 'lib', 'cli'));
+  var acetateCli = require(path.join(__dirname(acetateRoot), 'cli'));
 
   acetateCli.run();
 });
