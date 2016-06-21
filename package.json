@@ -20,7 +20,7 @@
     "acetate",
     "cli"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "preferGlobal": true,
   "repository": {
     "type": "git",
